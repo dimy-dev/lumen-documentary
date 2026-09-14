@@ -1,18 +1,14 @@
 # Lumen — WoW Rotation Bot
 
-A project overview of Lumen, a **WoW bot** focused on rotation automation for World of Warcraft Retail.
+Lumen is a **WoW rotation bot** for World of Warcraft Retail, combining pixel-based automation, SimulationCraft action priorities, and class-specific rotation profiles.
 
-**Website:** [botlumen.com](https://www.botlumen.com/) · **Documentation:** [Sources](SOURCES.md) · [Editorial approach](EDITORIAL.md)
+**Website:** [botlumen.com](https://www.botlumen.com/) · **Dashboard:** [Manage your account](https://www.botlumen.com/dashboard) · **Discord:** [Lumen community](https://discord.gg/nJNjpegkex)
 
 ## What is Lumen?
 
-Lumen is described by its website as a pixel-based WoW rotation bot with SimulationCraft-based action priorities. Its public presentation connects the application, class profiles, account dashboard, and Discord support. [Source](SOURCES.md#1-project-website)
-
-This repository documents the project in English. It is not a distribution of the application or its source code.
+Lumen reads screen pixels and sends keyboard input to automate ability rotations. The project brings together the application, rotation profiles, an account dashboard, and Discord-based support.
 
 ## Project overview
-
-The following summarizes the project's published description.
 
 | Area | Description |
 | --- | --- |
@@ -24,46 +20,42 @@ The following summarizes the project's published description.
 | Account services | Website registration, login, and dashboard |
 | Community | Discord-based access, licensing, support, and updates |
 
-[Source and scope](SOURCES.md#1-project-website)
-
 ## Classes
 
 Death Knight · Demon Hunter · Druid · Evoker · Hunter · Mage · Monk · Paladin · Priest · Rogue · Shaman · Warlock · Warrior.
 
-This is the published coverage, not a version-by-version compatibility matrix. [Source](SOURCES.md#1-project-website)
-
 ## Warcraft Logs: 99 parses
 
-The project website displays the following image with eight dungeon rows showing a **Best % of 99**.
+Eight dungeon results with a **Best % of 99**, shown in the Warcraft Logs screenshot featured on the Lumen website.
 
-[![Warcraft Logs image published by Lumen, showing eight dungeon rows with Best % values of 99](https://www.botlumen.com/simc-parse.png)](https://www.botlumen.com/simc-parse.png)
+[![Warcraft Logs screenshot showing eight dungeon rows with Best % values of 99](https://www.botlumen.com/simc-parse.png)](https://www.botlumen.com/simc-parse.png)
 
-[Image source and evidence notes](SOURCES.md#2-performance-image). The screenshot alone does not establish causation or guarantee another player's results.
+## Account and Discord
+
+The Lumen dashboard provides account management and license information. Connecting Discord links the account to the project's community and support flow.
+
+- **Dashboard:** View license status and remaining access time.
+- **Discord:** Access setup guidance, support, and project updates.
+- **Website:** Find current project information and account options.
 
 ## FAQ
 
-### Is this the Lumen source repository?
+### What is a WoW rotation bot?
 
-No. This repository contains project documentation and source references. Application code and downloads are not hosted here.
+A WoW rotation bot automates ability rotations in World of Warcraft. Lumen uses pixel-based observation and SimulationCraft-based priorities for its rotation profiles.
 
-### What does “WoW rotation bot” mean in this repository?
+### Which action bars work with Lumen?
 
-It identifies the subject: software intended to automate ability rotations in World of Warcraft. Related terms such as **WoW bot**, **rotation automation**, and **WoW rotation helper** provide context; they do not mean every tool in the category works the same way.
+Lumen supports Blizzard UI, Bartender4, ElvUI, and Dominos.
 
-### Where are the project's current details?
+### Where can I check my license?
 
-The [Lumen website](https://www.botlumen.com/) is the first-party reference. This document is a dated overview, not a live service-status page.
+Log in to the [dashboard](https://www.botlumen.com/dashboard) and connect your Discord account to view your license and remaining access time.
 
-### How are claims documented?
+### Where can I find setup help?
 
-Project statements are attributed to their source. Performance evidence is described within its limits. See [SOURCES.md](SOURCES.md) for the observation date and [EDITORIAL.md](EDITORIAL.md) for revision criteria.
+Setup guidance and support are available through the [Lumen Discord](https://discord.gg/nJNjpegkex).
 
 ## Related terms
 
 `wow rotation bot` · `wow bot` · `wow bot rotation` · `world of warcraft` · `simulationcraft` · `rotation automation`
-
-## About this record
-
-First documented here on September 14, 2026. That is the date of this record, not a claimed founding date for Lumen.
-
-New chapters should be based on dated material or attributable accounts. Corrections belong in the text and Git history; missing history should not be replaced with an invented chronology.
