@@ -1,36 +1,69 @@
-# Lumen: A Documentary Record
+# Lumen — WoW Rotation Bot
 
-An English-language account of Lumen, its public presentation, and the evidence available about the project.
+A project overview of Lumen, a **WoW bot** focused on rotation automation for World of Warcraft Retail.
 
-**Project website:** [botlumen.com](https://www.botlumen.com/)
+**Website:** [botlumen.com](https://www.botlumen.com/) · **Documentation:** [Sources](SOURCES.md) · [Editorial approach](EDITORIAL.md)
 
-This repository begins with a dated snapshot rather than a retrospective origin story. Its first edition was prepared on September 14, 2026; that is the date of this record, not a claimed founding date for Lumen.
+## What is Lumen?
 
-## 1. The project
+Lumen is described by its website as a pixel-based WoW rotation bot with SimulationCraft-based action priorities. Its public presentation connects the application, class profiles, account dashboard, and Discord support. [Source](SOURCES.md#1-project-website)
 
-Lumen is presented as a rotation automation tool for World of Warcraft Retail. Its website describes an application that reads screen pixels and sends keyboard input, with rotation priorities based on SimulationCraft action lists. These are the project's own descriptions, not findings from an independent technical audit. [Source 1](SOURCES.md#1-project-website)
+This repository documents the project in English. It is not a distribution of the application or its source code.
 
-## 2. The experience around the application
+## Project overview
 
-The public site describes class profiles, keybind configuration, installation, and updates. It lists support for thirteen classes and compatibility with Blizzard's interface, Bartender4, ElvUI, and Dominos. This describes the advertised scope at the time of observation; it does not establish that every combination has been tested. [Source 1](SOURCES.md#1-project-website)
+The following summarizes the project's published description.
 
-Discord occupies a central place in the project's public account of access, licensing, support, and updates. The website also provides account registration and login. [Source 1](SOURCES.md#1-project-website)
+| Area | Description |
+| --- | --- |
+| Game | World of Warcraft Retail |
+| Rotation logic | SimulationCraft action priority lists |
+| Input and observation | Screen-pixel reading and keyboard input |
+| Class coverage | Thirteen classes; tank, healer, and DPS profiles |
+| Interface compatibility | Blizzard UI, Bartender4, ElvUI, and Dominos |
+| Account services | Website registration, login, and dashboard |
+| Community | Discord-based access, licensing, support, and updates |
 
-## 3. Performance as part of the record
+[Source and scope](SOURCES.md#1-project-website)
 
-The site displays a Warcraft Logs screenshot containing eight dungeon rows with a Best % value of 99. The image documents what the site presents; it does not, by itself, establish how those results were produced or predict another player's results. [Source 2](SOURCES.md#2-performance-image)
+## Classes
 
-## 4. What remains undocumented
+Death Knight · Demon Hunter · Druid · Evoker · Hunter · Mage · Monk · Paladin · Priest · Rogue · Shaman · Warlock · Warrior.
 
-This edition does not establish a founding date, a complete release history, or a verified account of the project's earliest development. Those subjects need dated records or attributable first-person accounts before they can become chapters of the documentary.
+This is the published coverage, not a version-by-version compatibility matrix. [Source](SOURCES.md#1-project-website)
 
-An account of development should also preserve setbacks and corrections. A future entry should explain what changed, what evidence supports the account, and what remains uncertain. An absence of documentation should remain visible rather than be filled with a plausible story.
+## Warcraft Logs: 99 parses
 
-## About this repository
+The project website displays the following image with eight dungeon rows showing a **Best % of 99**.
 
-This is a documentary text, not the application's source repository, a product manual, or an independent endorsement. It contains no purchasing instructions, referral links, or promotional calls to action.
+[![Warcraft Logs image published by Lumen, showing eight dungeon rows with Best % values of 99](https://www.botlumen.com/simc-parse.png)](https://www.botlumen.com/simc-parse.png)
 
-- [Sources and evidence notes](SOURCES.md)
-- [Editorial approach](EDITORIAL.md)
+[Image source and evidence notes](SOURCES.md#2-performance-image). The screenshot alone does not establish causation or guarantee another player's results.
 
-The website link above identifies the subject of the record. The text here should be read separately from the website's sales material.
+## FAQ
+
+### Is this the Lumen source repository?
+
+No. This repository contains project documentation and source references. Application code and downloads are not hosted here.
+
+### What does “WoW rotation bot” mean in this repository?
+
+It identifies the subject: software intended to automate ability rotations in World of Warcraft. Related terms such as **WoW bot**, **rotation automation**, and **WoW rotation helper** provide context; they do not mean every tool in the category works the same way.
+
+### Where are the project's current details?
+
+The [Lumen website](https://www.botlumen.com/) is the first-party reference. This document is a dated overview, not a live service-status page.
+
+### How are claims documented?
+
+Project statements are attributed to their source. Performance evidence is described within its limits. See [SOURCES.md](SOURCES.md) for the observation date and [EDITORIAL.md](EDITORIAL.md) for revision criteria.
+
+## Related terms
+
+`wow rotation bot` · `wow bot` · `wow bot rotation` · `world of warcraft` · `simulationcraft` · `rotation automation`
+
+## About this record
+
+First documented here on September 14, 2026. That is the date of this record, not a claimed founding date for Lumen.
+
+New chapters should be based on dated material or attributable accounts. Corrections belong in the text and Git history; missing history should not be replaced with an invented chronology.

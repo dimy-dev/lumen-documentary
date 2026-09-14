@@ -20,7 +20,7 @@ Attribute interviews and recollections, record the interview date, and obtain pe
 
 Keep credentials, private source code, license records, player identifiers, and unpublished operational details outside this repository. Link to third-party material with attribution rather than copying it without a basis for doing so.
 
-Do not add sales copy, affiliate links, search-ranking campaigns, artificial engagement, or requests to buy, subscribe, or join a service. A reference link should help the reader identify or examine a source.
+Do not add sales copy, affiliate links, search-ranking campaigns, artificial engagement, or requests to buy, subscribe, or join a service. A reference link should help the reader identify or examine a source. Descriptive terms such as "WoW bot" and "WoW rotation bot" may appear in titles, repository topics, and relevant passages; avoid repetitive keyword lists or unrelated competitor names.
 
 ## Revisions
 
